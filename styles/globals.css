@@ -1,9 +1,11 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  background-color: white;
 }
 
 body {
@@ -20,6 +22,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 ul {
