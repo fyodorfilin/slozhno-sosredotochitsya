@@ -16,7 +16,7 @@ a:focus, button:focus {
 }
 
 .text-link:focus-visible {
-  outline: 1px solid var(--text-color); 
+  outline: 1px solid var(--text-color);
 }
 
 .page {
@@ -29,9 +29,8 @@ a:focus, button:focus {
 }
 
 .header {
-  display: block;
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
   position: relative;
   background-image: url(../images/cover-image-dark.png);
   background-size: cover;
@@ -199,7 +198,7 @@ a:focus, button:focus {
   display: block;
   width: max(50%, 355px);
   background-color: var(--some-text-bg-color);
-  align-self: flex-start;
+  align-self: center;
   justify-self: flex-end;
 }
 
@@ -215,7 +214,7 @@ a:focus, button:focus {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 23px 1fr 23px 1fr;
-  column-gap: 20px;
+  column-gap: 19.93px;
   row-gap: 10px;
   padding: 0 20px;
 }
@@ -495,7 +494,7 @@ a:focus, button:focus {
   gap: 10px;
 }
 
-.main_part-sec-list li p{
+.main_part-sec-list li p {
   margin-bottom: 10px;
 }
 
