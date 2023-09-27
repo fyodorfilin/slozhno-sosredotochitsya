@@ -567,7 +567,7 @@ a:focus, button:focus {
   grid-row-end: 4;
 }
 
-@media (width <= 500px) {
+@media (width <= 375px) {
   .pic__section {
     display: grid;
     gap: 10px;

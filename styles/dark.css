@@ -49,6 +49,16 @@
   border: 1px solid var(--text-color-add);
 }
 
+.page.theme_dark .header__theme-menu-button:focus-visible {
+  --text-color-add: #FF0070;
+  border-bottom: 1px solid var(--text-color-add);
+}
+
+.page.theme_dark .header__theme-menu-button:hover {
+  --button-hover-col: rgba(255, 0, 112, 0.40);
+  border: 1px solid var(--button-hover-col);
+}
+
 .page.theme_dark .footer__title {
   --heading-color: #DB00FF;
   --some-text-bg-color: #FF0070;
