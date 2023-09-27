@@ -8,3 +8,30 @@
   --main-font: 'IBM Plex mono';
   --button-hover-col: rgba(255, 0, 112, 0.40);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #00183F;
+    --heading-color: #DB00FF;
+    --some-text-bg-color: #FF0070;
+    --text-color: #F1B2CE;
+    --text-color-add: #FF0070;
+    --text-color-addx2: #000028;
+    --button-hover-col: rgba(255, 0, 112, 0.40);
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --heading-color: #FFC2E6;
+    --some-text-bg-color: #FF8DCB;
+    --text-color: #353430;
+    --text-color-add: #353430;
+    --text-color-addx2: #353430;
+    --button-hover-col: rgba(50, 49, 45, 0.40);
+  }
+}
+
+
