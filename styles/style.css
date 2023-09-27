@@ -164,11 +164,7 @@ a:focus, button:focus {
 }
 
 .inner_help-div {
-  width: 9px;
-  height: 9px;
-  background-color: #FF0070;
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px #FF0070;
+  display: block;
 }
 
 @media (prefers-color-scheme: light) {
