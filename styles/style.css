@@ -632,7 +632,7 @@ a:focus, button:focus {
 
 .footer__title {
   color: var(--heading-color);
-  text-shadow: 4px 4px 0px var(--some-text-bg-color);
+  text-shadow: 2px 2px 0px var(--some-text-bg-color);
   font-family: var(--main-font);
   font-size: 157px;
   font-style: normal;

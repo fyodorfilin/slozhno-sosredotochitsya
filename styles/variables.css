@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #00183F;
+  --bg-color: #000028;
   --heading-color: #DB00FF;
   --some-text-bg-color: #FF0070;
   --text-color: #F1B2CE;
@@ -11,7 +11,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #00183F;
+    --bg-color: #000028;
     --heading-color: #DB00FF;
     --some-text-bg-color: #FF0070;
     --text-color: #F1B2CE;
