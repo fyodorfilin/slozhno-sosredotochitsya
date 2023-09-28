@@ -1,34 +1,16 @@
 .page.theme_dark {
   --bg-color: #000028;
+  --heading-color: #DB00FF;
+  --some-text-bg-color: #FF0070;
+  --text-color-add: #FF0070;
+  --button-hover-col: rgba(255, 0, 112, 0.40);
+  --text-color: #F1B2CE;
+  --text-color-addx2: #000028;
   background-color: var(--bg-color);
 }
 
 .page.theme_dark .header {
   background-image: url(../images/cover-image-dark.png);
-}
-
-.page.theme_dark .header__title {
-  --heading-color: #DB00FF;
-  --some-text-bg-color: #FF0070;
-  color: var(--heading-color);
-  text-shadow: 4px 4px 0px var(--some-text-bg-color);
-}
-
-.page.theme_dark .header_text {
-  --some-text-bg-color: #FF0070;
-  background-color: var(--some-text-bg-color);
-}
-
-.page.theme_dark .bottom-left {
-  --text-color-add: #FF0070;
-  border-bottom: 1px solid var(--text-color-add);
-  border-left: 1px solid var(--text-color-add);
-}
-
-.page.theme_dark .top-right {
-  --text-color-add: #FF0070;
-  border-top: 1px solid var(--text-color-add);
-  border-right: 1px solid var(--text-color-add);
 }
 
 .page.theme_dark .inner_help-div {
@@ -37,58 +19,4 @@
 
 .page.theme_dark .help-div-add {
   display: block;
-}
-
-.page.theme_dark .header__theme-menu-button {
-  --text-color-add: #FF0070;
-  color: var(--text-color-add);
-}
-
-.page.theme_dark .header__theme-menu-button_active {
-  --text-color-add: #FF0070;
-  border: 1px solid var(--text-color-add);
-}
-
-.page.theme_dark .header__theme-menu-button:focus-visible {
-  --text-color-add: #FF0070;
-  border-bottom: 1px solid var(--text-color-add);
-}
-
-.page.theme_dark .header__theme-menu-button:hover {
-  --button-hover-col: rgba(255, 0, 112, 0.40);
-  border: 1px solid var(--button-hover-col);
-}
-
-.page.theme_dark .footer__title {
-  --heading-color: #DB00FF;
-  --some-text-bg-color: #FF0070;
-  color: var(--heading-color);
-  text-shadow: 2px 2px 0px var(--some-text-bg-color);
-}
-
-.page.theme_dark .main_part-sec-title {
-  --text-color-add: #FF0070;
-  color: var(--text-color-add);
-}
-
-.page.theme_dark .main_part-sec-subtitle {
-  --some-text-bg-color: #FF0070;
-  background-color: var(--some-text-bg-color);
-}
-
-.page.theme_dark .main_part-sec-text {
-  --text-color: #F1B2CE;
-  color: var(--text-color);
-}
-
-.page.theme_dark .main_part-sec-subsubtitle {
-  --some-text-bg-color: #FF0070;
-  --text-color-addx2: #000028;
-  color: var(--text-color-addx2);
-  background-color: var(--some-text-bg-color);
-}
-
-.page.theme_dark .text-link {
-  --some-text-bg-color: #FF0070;
-  text-shadow: 1.2px 1.2px 0px var(--some-text-bg-color);
 }
