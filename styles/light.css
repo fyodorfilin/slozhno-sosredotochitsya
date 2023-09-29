@@ -9,14 +9,28 @@
   background-color: var(--bg-color);
 }
 
-.page.theme_light .header {
+.page.theme_light {
   background-image: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .inner_help-div {
+.page.theme_light .help-div-add::after {
   display: none;
 }
 
 .page.theme_light .help-div-add {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .help-div-add::after {
+    display: none;
+  }
+  
+  .help-div-add {
+    display: none;
+  }
 }
