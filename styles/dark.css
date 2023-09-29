@@ -7,9 +7,6 @@
   --text-color: #F1B2CE;
   --text-color-addx2: #000028;
   background-color: var(--bg-color);
-}
-
-.page.theme_dark {
   background-image: url(../images/cover-image-dark.png);
 }
 

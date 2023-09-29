@@ -476,6 +476,14 @@ a:focus, button:focus {
     gap: 50px;
   }
 
+  .main_part-sec-title {
+    padding-right: 5px;
+  }
+
+  .main_part-sec-text {
+    padding-right: 5px;
+  }
+
   .main_part-sec1 {
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;

@@ -7,9 +7,6 @@
   --text-color: #353430;
   --text-color-addx2: #353430;
   background-color: var(--bg-color);
-}
-
-.page.theme_light {
   background-image: url(../images/cover-image-light.png);
 }
 
